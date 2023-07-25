@@ -1,0 +1,43 @@
+/* "Tide" theme */
+/* TODO:
+- Convert the other themes to CSS Variables
+- Allow user to set default CSS theme in JS config
+- Export the themes as identical JS objects
+- For theme switcher, update root-level CSS properties via JS (https://medium.com/@_bengarrison/accessing-and-modifying-css-variables-with-javascript-2ccb735bbff0)
+ */
+
+:root {
+  /* Interface UI Colors */
+  --default-color: #c7c7c7;
+  --hover-color: #fff;
+  --active-color: #f60;
+  --ui-border-color: #f60;
+  --ui-border-color-dark: #f60;
+  --ui-border-color-active: #;
+  --primary-background-color: #000;
+  --box-background-color: #3e5975;
+  --ui-yellow: #e29e4a;
+  --ui-sky-blue: #6fbde2;
+  --ui-state-error: #fcc;
+  --ui-state-error-border: #933;
+  --ui-state-error-text: #611;
+  --ui-gray-light: #516873;
+  --ui-gray: #f60;
+  --ui-gray-dark: #0b0c0c;
+  --ui-gray-darker: #151617;
+  --ui-gray-darkest: #14202a;
+  --text-color-active: #000;
+  --text-primary-color: #fff;
+  --text-secondary-color: #f60;
+  --large-numbers-color: #f60;
+  --text-disabled-color: #878787;
+  --input-background-color: #b1b1b1;
+  --input-placeholder-color--hover: #14202a;
+  --input-placeholder-color: #14202a;
+  --table-hover-color: #151617;
+  --table-text-primary-color: #fff;
+  --table-text-secondary-color: #f60;
+  --state-error: #fcc;
+  --state-error-border: #fcc;
+  --state-error-text: #fcc;
+}

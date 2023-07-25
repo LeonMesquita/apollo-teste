@@ -1,0 +1,53 @@
+.not-authorization{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  color: white;
+}
+
+h2{
+  margin: 8px 0px 0px;
+  font-weight: 400;
+}
+
+h4{
+  margin: 0 auto;
+  margin-top:1.2em;
+  font-weight: 400;
+}
+
+button {
+  margin-top:.2em;
+  background:#e05f2d;
+  color:white;
+  display: inline-block;
+  font-weight: 400;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border: 1px solid transparent;
+  padding: 0.5rem 0.75rem;
+  font-size: 1rem;
+  line-height: 1.25;
+  border-radius: 0.25rem;
+  transition: all .15s ease-in-out;
+}
+
+.header-logo-text-notFound {
+  width: 400px;
+  height: auto;
+}
+
+@media only screen and (max-width: 768px) {
+  .header-logo-text {
+    display: none;
+  }
+}

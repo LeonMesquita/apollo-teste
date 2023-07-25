@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="{{ lang }}">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="{{ description }}">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <title>{{ title }}</title>
+
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="/public/docz.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700&display=swap">
+
+  <style>
+    /* "Tide" theme */
+    /* TODO:
+    - Convert the other themes to CSS Variables
+    - Allow user to set default CSS theme in JS config
+    - Export the themes as identical JS objects
+    - For theme switcher, update root-level CSS properties via JS (https://medium.com/@_bengarrison/accessing-and-modifying-css-variables-with-javascript-2ccb735bbff0)
+    */
+    :root {
+      /* Interface UI Colors */
+    --default-color: #C7C7C7;
+    --hover-color: #fff;
+    --active-color: #f60;
+    --ui-border-color: #f60;
+    --ui-border-color-dark: #f60;
+    --ui-border-color-active: #;
+    --primary-background-color: #000;
+    --box-background-color: #3E5975;
+    --ui-yellow: #E29E4A;
+    --ui-sky-blue: #6FBDE2;
+    --ui-state-error: #fcc;
+    --ui-state-error-border: #933;
+    --ui-state-error-text: #611;
+    --ui-gray-light: #516873;
+    --ui-gray: #f60;
+    --ui-gray-dark: #0B0C0C;
+    --ui-gray-darker: #151617;
+    --ui-gray-darkest: #14202A;
+    --text-color-active: #000;
+    --text-primary-color: #fff;
+    --text-secondary-color: #f60;
+    --large-numbers-color: #f60;
+    --text-disabled-color: #878787;
+    --input-background-color: #B1B1B1;
+    --input-placeholder-color--hover: #14202A;
+    --input-placeholder-color: #14202A;
+    --table-hover-color: #151617;
+    --table-text-primary-color: #fff;
+    --table-text-secondary-color: #f60;
+    --state-error: #fcc;
+    --state-error-border: #fcc;
+    --state-error-text: #fcc;
+
+
+      /* Common palette */
+      --ui-yellow: #E29E4A;
+      --ui-sky-blue: #e2806f;
+      /* State palette */
+      --ui-state-error: #FFCCCC;
+      --ui-state-error-border: #993333;
+      --ui-state-error-text: #661111;
+      --ui-gray-lighter: #436270;
+      --ui-gray-light: #516873;
+      --ui-gray: #263340;
+      --ui-gray-dark: #16202B;
+      --ui-gray-darker: #151A1F;
+      --ui-gray-darkest: #14202A;
+
+      --calendar-day-color: #d3d3d3;
+      --calendar-day-border-color: #d3d3d3;
+      --calendar-day-active-hover-background-color: #516873;
+      --calendar-main-color: #263340;
+      --viewport-border-thickness: 1px;
+    }
+
+    body {
+      font-family: 'Roboto', sans-serif !important;
+    }
+  </style>
+  {{ head }}
+</head>
+
+<body>
+  <div id="root" />
+  {{ footer }}
+</body>
+
+</html>

@@ -1,0 +1,55 @@
+.drag-drop-instructions {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box-icon{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-logo-text-local{
+  width: 300px;
+  height: auto;
+}
+
+.drag-drop-contents {
+  padding: 5rem 3rem;
+  background-color: #502000;
+  border-radius: 2%;
+}
+
+.box-click{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+
+.dialog-box{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.drag-drop-instructions h3 {
+  color: var(--active-color);
+}
+
+.drag-drop-instructions h4 {
+  color: var(--text-secondary-color);
+}
+
+.link-dialog {
+  color: var(--active-color);
+  cursor: pointer;
+}
+
+.link-dialog:hover {
+  color: #FFFFFF;
+}
